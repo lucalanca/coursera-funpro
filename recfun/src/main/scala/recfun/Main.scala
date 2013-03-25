@@ -23,11 +23,11 @@ object Main {
    * Exercise 2
    */
   def balance(chars: List[Char]): Boolean = {
-    def balanceIter(current: List[Char], open: Int = 0, close: Int = 0): Boolean = {
-      if (current.isEmpty) open == close
-      else if (current.head == '(') balanceIter(current.tail, open+1, close)
-      else if (current.head == ')') open > close && balanceIter(current.tail, open, close+1)
-      else balanceIter(current.tail, open, close)
+    def balanceIter(current: List[Char], open: Int = 0): Boolean = {
+      if (current.isEmpty) open == 0
+      else if (current.head == '(') balanceIter(current.tail, open+1)
+      else if (current.head == ')') open > 0 && balanceIter(current.tail, open-1)
+      else balanceIter(current.tail, open)
     }
     balanceIter(chars)
   }

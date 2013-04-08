@@ -1,0 +1,636 @@
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.10.1[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@197fb6e8[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.10.1 (resolved by sbt-chain): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.10.1 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.10.1 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a17bec0[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.10;1.9.1 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	checking org.scalatest#scalatest_2.10;1.9.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalatest#scalatest_2.10;1.9.1 from public[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d0e4d9[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-actors;2.10.0 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-actors/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-actors;2.10.0 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-actors;2.10.0 from public[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38946f29[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-reflect;2.10.0 (resolved by sbt-chain): /home/joaofigueiredo/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-reflect;2.10.0 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-reflect;2.10.0 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve junit#junit;4.10[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f9bd819[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/junit/junit/ivy-4.10.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for junit#junit;4.10 (resolved by public): /home/joaofigueiredo/.ivy2/cache/junit/junit/ivy-4.10.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/junit/junit/ivy-4.10.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for junit#junit;4.10 (resolved by public): /home/joaofigueiredo/.ivy2/cache/junit/junit/ivy-4.10.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	checking junit#junit;4.10 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: junit#junit;4.10 from public[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ee04bb6[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.hamcrest#hamcrest-core;1.1 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/joaofigueiredo/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.hamcrest#hamcrest-core;1.1 (resolved by public): /home/joaofigueiredo/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	checking org.hamcrest#hamcrest-core;1.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.hamcrest#hamcrest-core;1.1 from public[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-library;2.10.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.10.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scalatest#scalatest_2.10;1.9.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scalatest#scalatest_2.10;1.9.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-actors;2.10.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-actors;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.scala-lang#scala-reflect;2.10.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-reflect;2.10.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->junit#junit;4.10 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of junit#junit;4.10 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0->org.hamcrest#hamcrest-core;1.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.hamcrest#hamcrest-core;1.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [sources][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [docs][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 [pom][0m
+[0m[[0mdebug[0m] [0mloadData of progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.10 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/progfun-funsets/progfun-funsets$sources_javadoc_2.10/1.0.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: resource not reachable for org/hamcrest#hamcrest-core;1.1: res=http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)[0m
+[0m[[33mwarn[0m] [0m	[NOT FOUND  ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(doc) (320ms)[0m
+[0m[[33mwarn[0m] [0m==== public: tried[0m
+[0m[[33mwarn[0m] [0m  http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 411ms :: artifacts dl 491ms[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::              FAILED DOWNLOADS            ::[0m
+[0m[[33mwarn[0m] [0m	:: ^ see resolution messages for details  ^ ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(doc)[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 compile produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 runtime produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.10 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 test produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 provided produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 optional produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 compile-internal produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 runtime-internal produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.10;1.9.1 / Number of dependencies = 15[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalatest#scalatest_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-actors;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-actors depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-reflect;2.10.0 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scala-lang#scala-reflect depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : junit#junit;4.10 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.hamcrest#hamcrest-core;1.1 / Number of dependencies = 3[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.hamcrest#hamcrest-core depends on junit#junit;4.0, doesn't match junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0mSort done for : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 test-internal produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 plugin produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 sources produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 docs produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for progfun-funsets#progfun-funsets$sources_javadoc_2.10;1.0.0 pom produced in /home/joaofigueiredo/DevRW/coursera-funpro/funsets/target/resolution-cache/reports/progfun-funsets-progfun-funsets$sources_javadoc_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (411ms resolve - 491ms download)[0m
